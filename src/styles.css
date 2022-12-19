@@ -5,8 +5,12 @@ body {
   background: black;
 }
 
-h1 {
+h1,
+h2,
+footer {
   color: azure;
-  font-size: 60px;
-  line-height: 90px;
+}
+
+h1 {
+  font-size: 85px;
 }
