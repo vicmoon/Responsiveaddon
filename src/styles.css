@@ -1,16 +1,18 @@
-body {
-  display: block;
+.container {
+  margin: 0 auto;
   text-align: center;
-  font-family: "Press Start 2P", cursive;
+  font-family: "Playfair Display", serif;
   background: black;
-}
-
-h1,
-h2,
-footer {
+  padding-top: 20px;
+  max-width: 1200px;
   color: azure;
 }
 
 h1 {
-  font-size: 85px;
+  font-size: 90px;
+  text-decoration-line: underline;
+  letter-spacing: 15px;
+}
+h2 {
+  font-size: 50px;
 }
