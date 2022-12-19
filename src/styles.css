@@ -1,0 +1,12 @@
+body {
+  display: block;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  background: black;
+}
+
+h1 {
+  color: azure;
+  font-size: 60px;
+  line-height: 90px;
+}
