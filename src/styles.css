@@ -3,13 +3,16 @@ main {
   margin: 0 auto;
   text-align: center;
   font-family: "Playfair Display", serif;
-  background: black;
+  background: #010001;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   max-width: 1200px;
   color: azure;
 }
 
+.header-container h2 {
+  font-size: 40px;
+}
 .footer-container {
   color: azure;
   text-align: center;
@@ -33,12 +36,8 @@ main img {
   max-width: 80%;
 }
 
-.lagerfeld {
-  max-width: 100%;
-  max-height: 100%;
-}
 main h2 {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 section {
