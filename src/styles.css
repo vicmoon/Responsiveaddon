@@ -9,7 +9,6 @@ main {
   max-width: 1300px;
   color: azure;
 }
-
 .header-container h1 {
   background: rgb(2, 2, 32);
   padding: 50px;
@@ -46,6 +45,9 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+}
+main .ending {
+  text-align: center;
 }
 
 .card {
