@@ -6,29 +6,42 @@ main {
   background: #010001;
   padding-top: 20px;
   padding-bottom: 9px;
-  max-width: 1200px;
+  max-width: 1300px;
   color: azure;
 }
+.header-container h1 {
+  background: rgb(2, 2, 21);
+  padding: 50px;
+  font-size: 90px;
+  letter-spacing: 15px;
+}
 
+header {
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-style: dotted;
+}
 .header-container h2 {
   font-size: 40px;
 }
 .header-container h4 {
   font-size: 15px;
+  padding: 0;
 }
 .footer-container {
   color: azure;
   text-align: center;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   background: rgb(33, 33, 82);
 }
 .footer-container a {
   color: azure;
 }
-.grid {
+.footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-columns: 2fr 2fr 2fr;
   grid-gap: 20px;
 }
 .main-grid {
@@ -63,16 +76,10 @@ section {
   padding: 100px;
 }
 footer p {
-  font-weight: 200;
   font-size: 16px;
   text-align: center;
 }
 
-h1 {
-  font-size: 90px;
-  text-decoration-line: underline;
-  letter-spacing: 15px;
-}
 h2 {
   font-size: 50px;
 }
@@ -88,14 +95,34 @@ ul {
 }
 
 @media (max-width: 960px) {
-  h1 {
+  main {
+    background: yellow;
+  }
+  main img {
+    display: none;
+  }
+  .header-container h1 {
     font-size: 30px;
+    text-align: center;
+    padding: 20px;
   }
-  h2 {
-    font-size: 20px;
+  .header-container h4 {
+    font-size: 9px;
   }
-
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main-grid p {
+    display: none;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
   footer {
     font-size: 10px;
+  }
+  footer p {
+    display: none;
   }
 }
