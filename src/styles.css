@@ -5,7 +5,7 @@ main {
   font-family: "Playfair Display", serif;
   background: #010001;
   padding-top: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 9px;
   max-width: 1200px;
   color: azure;
 }
@@ -13,14 +13,19 @@ main {
 .header-container h2 {
   font-size: 40px;
 }
+.header-container h4 {
+  font-size: 15px;
+}
 .footer-container {
   color: azure;
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
-  background: rgb(14, 7, 1);
+  background: rgb(33, 33, 82);
 }
-
+.footer-container a {
+  color: azure;
+}
 .grid {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
@@ -32,6 +37,18 @@ main {
   grid-gap: 20px;
 }
 
+.card {
+  background: #1e1532;
+  padding-top: 10px;
+}
+
+.btn {
+  display: block;
+  color: azure;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: rgb(33, 33, 82);
+}
 main img {
   max-width: 80%;
 }
