@@ -8,6 +8,11 @@ main {
   padding-bottom: 9px;
   max-width: 1300px;
   color: azure;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 0;
+
+  border-style: dotted;
 }
 .header-container h1 {
   background: rgb(2, 2, 32);
@@ -17,7 +22,6 @@ main {
   border-left: 0;
   border-top: 0;
   border-right: 0;
-  border-style: dotted;
 }
 .header-container h2 {
   font-size: 40px;
